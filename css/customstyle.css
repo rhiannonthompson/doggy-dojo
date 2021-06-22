@@ -71,7 +71,7 @@ p {
 
 /*********background image*************/
 header {
-  background-image: url(/images/dogs_in_water.jpg);
+  background-image: url("../images/dogs_in_water.jpg");
   background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: darken;
   background-size: cover;
@@ -252,9 +252,9 @@ header {
       from(rgba(0, 0, 0, 0.8)),
       to(rgba(0, 0, 0, 0.8))
     ),
-    url(images/back-customers.jpg);
+    url("../images/back-customers.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(/images/review_background.jpg);
+    url("../images/review_background.jpg");
   background-size: cover;
   color: #fff;
   background-attachment: fixed;
