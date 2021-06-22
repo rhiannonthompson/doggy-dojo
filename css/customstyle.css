@@ -1,0 +1,380 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #dddddd;
+  color: #555;
+  font-family: "Lato", "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+
+/* section {
+  height: 80vh;
+} */
+
+section {
+  padding: 80px 10px;
+}
+
+.dojo-classes {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.info, 
+.price-plans {
+  background-color: #fff;
+}
+
+
+
+/*        <!--********headings************-->*/
+h1,
+h2 {
+  font-weight: 100;
+  font-family: "Yeon Sung", cursive;
+  font-size: 200%;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 200%;
+  color: #fff;
+}
+
+h2 {
+  font-size: 180%;
+  display: block;
+  text-align: center;
+  padding-bottom: 1.5em;
+}
+
+h2:after {
+  display: block;
+  height: 2px;
+  background-color: #ff8000;
+  content: "";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 140%;
+}
+
+p {
+  font-weight: 400;
+  font-size: 80%;
+}
+
+/*        <!--********background image************-->*/
+header {
+  background-image: url(/images/dogs_in_water.jpg);
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+/***********main navigation*************/
+
+/* .nav-item {
+  display: inline-block; 
+  margin-top: 5%;
+  padding: 10%;
+  color: #fff;
+  margin-right: 4%; 
+  border-bottom: 2px solid transparent; 
+  font-weight: 400;
+} */
+
+.nav-item {
+  display: inline-block; 
+  margin-top: 5%;
+  padding: 10%;
+  margin-right: 6%; 
+  border-bottom: 2px solid transparent; 
+}
+
+.nav-link {
+  color: #fff;
+  font-weight: 400;
+} 
+
+.nav-link:active,
+.nav-link:hover {
+  color: #ff8000;
+}
+
+.nav-item:after {
+  border-bottom: #ff8000;
+}
+
+
+
+.nav-link:active,
+.nav-link:hover {
+  color: #ff8000;
+}
+
+
+.nav-item {
+  display: inline-block;
+  /* margin-left: 40px; */
+  padding: 8px 0px;
+}
+
+.line {
+  color: #fff;
+  text-decoration: none;
+  padding: 0%;
+  border-bottom: 2px solid transparent;
+}
+
+.line:active,
+.line:hover {
+  color: #ff8000;
+  padding: 0px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #ff8000;
+  transition: 0.3s;
+}
+
+.dropdown {display: none;}
+
+/***********Logo*************/
+
+.logo {
+  position: relative;
+  max-width: 200px;
+  height: auto;
+  margin: 1.5%;
+  padding: 2%;
+  float: left;
+}
+
+/***********buttons*************/
+
+.btn {
+  font-size: 110%;
+  padding: 10px;
+  color: #ff8000;
+  text-decoration: none;
+  word-spacing: 2px;
+  margin-right: 20px;
+  border: 2px solid #ff8000;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-top: 1%;
+}
+
+.btn:focus,
+.btn:active {
+  /* outline: none !important; */
+  box-shadow: none;
+}
+
+
+.btn-full {
+  background-color: #ff8000;
+  color: #fff;
+}
+
+.btn-ghost:active,
+.btn-ghost:hover {
+  background-color: #ff8000;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.btn-full:active,
+.btn-full:hover {
+  background-color: #c36200;
+  border: 2px solid #c36200;
+}
+
+/***********Main Message*************/
+
+.hero-message {
+  margin: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 65%;
+  left: 3%;
+}
+
+.info-message {
+  font-size: 110%;
+  font-weight: 400;
+  padding-top: 5%;
+  /* margin: 5px 20px 0 80px; */
+  /* text-align: justify; */
+}
+
+/* .info-box {
+  margin-top: 5%;
+} */
+
+.info-img {
+  padding: 5%;
+}
+
+/***********classes*************/
+
+
+.card {
+  margin: 5%;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.list-group-item {
+  font-size: 80%;
+  font-weight: 700;
+}
+
+
+.card-body {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.card-img-top {
+  max-height: 42vh;
+}
+
+
+
+/************ Price-Plans ***************/
+
+
+.list-large {
+  padding: 5%;
+  text-align: center;
+  background-color: #e6e6e6;
+}
+
+.large {
+  margin-top: 20px;
+  margin-left: 18px;
+  text-align: center;
+}
+
+.premium {
+box-shadow: 0 2px 4px 0 rgba(247, 176, 24, 0.397), 0 6px 20px 0 rgba(247, 176, 24, 0.795);
+}
+
+
+/************ Testimonials ***************/
+
+
+.section-testimonials {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(images/back-customers.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/images/review_background.jpg);
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+}
+
+blockquote {
+  padding: 2%;
+  font-style: italic;
+  line-height: 140%;
+  position: relative;
+  margin-top: 20px;
+}
+
+blockquote:before {
+  content: "\201C";
+  font-size: 400%;
+  position: absolute;
+  top: -6px;
+  left: -5px;
+}
+
+cite {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 90%;
+  display: block;
+}
+
+cite img {
+  width: 40%;
+  border-radius: 50%;
+  border-right: 3%;
+  margin-right: 3%;
+  vertical-align: middle;
+}
+
+/************ footer ***************/
+
+footer {
+  background-color: #555;
+  padding: 50px;
+  font-size: 80%;
+}
+
+.social {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.social-links {
+  list-style: none;
+  text-align: center;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+  text-decoration: none;
+  border: 0;
+  color: #888;
+  transition: color 0.2s;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+  font-size: 160%;
+}
+
+.ion-logo-facebook a,
+.ion-logo-twitter,
+.ion-logo-instagram {
+  transition: color 0.2s;
+}
+
+.ion-logo-facebook:hover {
+  color: #3b5998;
+}
+
+.ion-logo-twitter:hover {
+  color: #00aced;
+}
+
+.ion-logo-instagram:hover {
+  color: #517fa4;
+}
+
+footer p {
+  color: #888;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+

@@ -1,0 +1,108 @@
+
+/* Large devices (laptops/desktops, 992px and down) */
+@media only screen and (max-width: 992px) {
+
+    
+    h1 {font-size: 180%;}
+    .logo {max-width: 160px;}
+    .list-large {padding: 2%;}
+    .large {
+        margin-top: 10px;
+        font-size: 100%;
+        padding: 2.5%;
+    }
+    .nav-link {font-size: 90%; }
+
+}
+
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 770px) {
+
+    h1 {font-size: 160%;}
+    .logo {
+        max-width: 150px;
+        display: block;
+        float: right;
+    }
+    .nav {display: none;}
+
+    .btn-dropdown {
+        font-size: 90%;
+        padding: 6px;
+        color: #fff;
+        border: none;
+        word-spacing: 2px;
+        margin-left: 25px;
+        margin-top: 10px;
+        color: #fff;
+        font-weight: 400;
+        font-size: 100%;
+    }
+
+
+    .dropdown {
+        display: inline-block;   
+    }
+    .dropdown-menu {
+        background-color: rgba(255, 255, 255, 0.6);
+        border: 1px solid #ff8000;
+    }
+
+    .btn-dropdown:link,
+    .btn-dropdown:visited {
+        color: #fff;
+    }
+
+    .btn-dropdown:active,
+    .btn-dropdown:hover {
+        color: #ff8000;
+    }
+
+    .dropdown-item {
+        font-weight: 400;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 735px and down) */
+@media only screen and (max-width: 735px) {
+
+    /* h1 {font-size: 150%;}
+    .logo {max-width: 140px;} */
+
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 530px) {
+
+    h1 {font-size: 150%;}
+    h2 {font-size: 140%;}
+    
+    .hero-message {top: 45%;}
+
+    .logo {
+        max-width: 110px;
+        margin: 2%;
+    }
+
+    .btn {
+        font-size: 100%;
+        padding: 6px;
+        margin-right: 2px;
+      }
+    header {
+        background-position: right;
+    }
+    .dojo-classes {
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+      }
+      blockquote:before {font-size: 300%;}
+}
+
+
+
+
+
+
