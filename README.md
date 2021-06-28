@@ -11,7 +11,7 @@ Doggy Dojo is landing page mock-up built to promote a (fictional) ninja gym for 
 * Figma
 
 ## Description
-**Doggy Dojo** was my very first front-end developer project. The aim of this project was to create a landing page for a fictional business. The business concept, a ninja gym for dogs, is my original idea, as is all the copy and the logo design. I designed the logo, website layout and components using Figma and then re-implemented the design in HTML, CSS and Bootstrap.
+Doggy Dojo was my very first front-end developer project. The aim of this project was to create a landing page for a fictional business. The business concept, a ninja gym for dogs, is my original idea, as is all the copy and the logo design. I designed the logo, website layout and components using Figma and then re-implemented the design in HTML, CSS and Bootstrap.
 
 ## Setup/Installation Requirements
 
