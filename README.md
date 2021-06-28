@@ -7,6 +7,7 @@ Doggy Dojo is landing page mock-up built to promote a (fictional) ninja gym for 
 * JavaScript (ES6)
 * HTML5
 * CSS3
+* Bootstrap
 * Figma
 
 ## Description
