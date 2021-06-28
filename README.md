@@ -1,4 +1,4 @@
-# Cocktail Finder 
+# Dogg Dojo
  
 Doggy Dojo is landing page mock-up built to promote a (fictional) ninja gym for dogs. [live demo](https://rhiannonthompson.github.io/doggy-dojo/).
 
