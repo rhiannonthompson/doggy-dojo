@@ -20,4 +20,4 @@ Doggy Dojo is landing page mock-up built to promote a (fictional) ninja gym for 
 
 ## License
 
-[MIT](https://github.com/rhiannonthompson/cocktail-finder/blob/main/LICENSE)
+ Apache-2.0 License
